@@ -11,7 +11,12 @@ buttonEl.addEventListener('click', updateButton)
 function updateButton() {
 	likes++;
 
+	if (likes === 1) {
+		buttonEl.innerHTML = likes+ ' like';
+	}
+	else {
 	buttonEl.innerHTML = likes+' likes';
+	}
 }
 
 //create another button that when pressed, resets the like counter back to 0
