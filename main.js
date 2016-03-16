@@ -6,7 +6,7 @@
 var buttonEl = document.querySelector('.btnLike');
 var likes = 0;
 
-buttonEl.addEventListener('click', updateButton)
+buttonEl.addEventListener('click', updateButton); 
 
 function updateButton() {
 	likes++;

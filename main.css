@@ -1,6 +1,18 @@
 
 .buttons {
-	width: 30em;
-	padding: 2em;
+	width: 20em;
+	padding: 4em;
 	margin: 0 auto;
+}
+
+.btnLike {
+	width: 5em;
+	font-size: 1.5em;
+	padding: 0.5em;
+	margin-right: 1em;
+}
+
+.btnReset {
+	font-size: 1.5em;
+	padding: 0.5em;
 }
